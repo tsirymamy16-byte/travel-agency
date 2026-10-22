@@ -1,0 +1,247 @@
+
+
+    header{display: flex;
+                justify-content: space-between;
+                align-items: center;}
+
+        ul{list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;}
+
+            a{text-decoration: none;
+                color: black;}
+                .actif{color: red;}
+        .active:hover{
+                color: red;
+                        }
+
+                        a:hover{
+                                background-color: blue;
+                                margin: 10px;
+                                padding: 10px;
+                                border-radius: 5px;
+                                }
+
+                                .btn{background-color: red;
+                                        margin: 10px;
+                                padding: 10px;
+                                border-radius: 5px; }
+
+            
+    .hero{background-image: url(sary.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 300px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;}
+
+        .hero h2{color: green;
+                font-size: 40px;}
+          .hero button{color: white;
+                    margin-top: 0;
+                    text-align: center;
+                    background-color: red;
+                    height: 20px;
+                    border: 2px solid red ;
+                    border-radius: 5px;
+                    cursor: pointer;}
+
+        .icone{display: flex;
+           justify-content: center; 
+            gap: 100px;
+            margin-top: 20px;}
+            .item{width: 250px;
+                    text-align: center;}
+                    .thème{width: 250px;
+                    text-align: center;}
+                        .symbole{width: 250px;
+                                text-align: center;}
+     
+
+
+                    .texte{background-image: url(famille.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    justify-content: center;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    height: 200px;
+                    width: 500px;
+                    flex-direction: column;}
+
+                    
+            .text{background-image: url(evader.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: column;
+                    height: 200px;
+                    width: 500px;
+                    align-items: center;
+                    text-align: center;}
+         .offres{background-color: bisque;
+                padding: 50px;
+                display: flex;
+                justify-content: center;
+                gap: 40px;}
+            .cadre{width: 280px;
+                    height: 200px;
+                    background-image: url(famille.jpg);
+                   background-position: center;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   border-radius: 8px;
+                   border: 1px solid ;
+                   text-align: center;
+                   padding: 15px;
+                   position: relative;
+                   overflow: hidden;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;}
+
+      
+
+
+                   .cadre::before{
+                          content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background-color: rgba(255, 255, 255, 0.8);
+                        width: 75%;
+                        height: 100%;}
+                .cadre{position: relative;}
+
+
+                          .cadre p{font-size: 14px;
+                                   color: black;
+                                    margin: 15px 0;}
+
+                                            .cadre h3,
+                                            .cadre button,
+  
+                                              .cadre p{position: relative;
+                                                        z-index: 1;
+                                                        width: 75%;
+                                                        text-align: center;}
+
+                                                       
+                                                        .cadre button{background-color: orange;
+                                                                        border: orange;
+                                                                        border-radius: 5px ;
+                                                                        }
+
+
+                                                        .cadre a:hover{background: darkorange;}
+
+                                                        .cadre img{width: 100px;
+                                                                   height: 100px;
+
+
+                                                               object-fit: cover;}
+                                                               
+                
+                
+                .texte button{background-color: orange;
+                              color: white;
+                              width: 100px;
+                              border:2px solid orange;
+                              border-radius: 5px;
+                              cursor: pointer;}
+                .text button{background-color: orange;
+                            color: white;
+                            width: 100px;
+                            border:2px solid orange;
+                            border-radius: 5px;
+                            cursor: pointer;}
+
+
+                            .carte{width: 280px;
+                    height: 200px;
+                    background-image: url(evader.jpg);
+                   background-position: center;
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   border-radius: 8px;
+                   border: 1px solid ;
+                   text-align: center;
+                   padding: 15px;
+                   position: relative;
+                   overflow: hidden;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;}
+
+
+                .carte button{background-color: orange;
+                                color: white;
+                                border-radius: 5px;
+                                border: none;}
+
+                        .carte::before{content: "";
+                                        left: 0;
+                                        top: 0;
+                                        width: 75%;
+                                        height: 100%;
+                                        background-color: rgba(255, 255, 255, 0.8);
+                                        position: absolute;}
+
+                                        
+
+                                        .carte p{color: black;
+                                                font-size: 14px;
+                                                margin: 15px 0;}
+
+                                                .carte p,
+                                                .carte h3,
+                                                .carte button{position: relative;
+                                                                z-index: 1;
+                                                                text-align: center;
+                                                                width: 75%;}
+
+                                                                .carte img{object-fit: cover;}
+
+.champ{display: flex;
+        justify-content: center;
+       gap: 15px;
+        margin-bottom: 15px; }
+                button{background-color: blue;
+                        color: white;
+                        cursor: pointer;}
+
+                        .q{width: 300px;
+                            border: 2px solid blue;}
+
+
+            .p{background-color: dimgrey;
+                color: white;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;}
+
+                footer{display: flex;
+                        justify-content: center;
+                        color: black;}
+
+
+           .point{color: red;
+                font-size: 50px;}
+
+            .teboka{color: red;
+                    font-size: 50px;}              
