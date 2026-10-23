@@ -17,11 +17,19 @@
                 color: red;
                         }
 
-                        a:hover{
-                                background-color: blue;
+                        ul:hover{
+                                
                                 margin: 10px;
                                 padding: 10px;
                                 border-radius: 5px;
+                                }
+
+                                ul a:hover{
+                                        color: white;
+                                        background-color: blue;
+                                        margin: 10px;
+                                        padding: 10px;
+                                        border-radius: 5px;
                                 }
 
                                 .btn{background-color: red;
@@ -145,7 +153,7 @@
                                                                         }
 
 
-                                                        .cadre a:hover{background: darkorange;}
+                                                        
 
                                                         .cadre img{width: 100px;
                                                                    height: 100px;
@@ -153,7 +161,19 @@
 
                                                                object-fit: cover;}
                                                                
-                
+                .partez a{background-color:orange;
+                            color: white;
+                            width: 100px;
+                            border:2px solid orange;
+                            border-radius: 5px;
+                            cursor: pointer;}
+
+                            .partez a:hover{background-color:orange;
+                                            color: white;
+                                            width: 100px;
+                                            border:2px solid orange;
+                                            border-radius: 5px;
+                                            cursor: pointer;}
                 
                 .texte button{background-color: orange;
                               color: white;
